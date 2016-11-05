@@ -1,0 +1,21 @@
+package com.ninescript.test.strings.basicdemo1;
+
+public class JavaStringExample {
+
+	public static void main(String args[]) {
+
+		
+		String str1 = new String("");
+
+		
+		String str2 = new String("Hello world");
+
+	
+		String str3 = "Hello Wolrd";
+
+	
+		System.out.println(str1.length());
+
+	}
+
+}

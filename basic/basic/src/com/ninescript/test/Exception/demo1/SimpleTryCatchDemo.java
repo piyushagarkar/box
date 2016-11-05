@@ -1,0 +1,23 @@
+package com.ninescript.test.Exception.demo1;
+
+public class SimpleTryCatchDemo {
+	
+	public static void main(String[] args) {
+		
+		int a,b,c;
+		
+		try{
+				a = 0;
+				b = 10;
+				c = b / a;
+				System.out.println("This line will not be executed");
+		
+		}
+		
+		catch(ArithmeticException e){
+
+			System.out.println("Arithmectic Exception");
+		}
+	}
+
+}

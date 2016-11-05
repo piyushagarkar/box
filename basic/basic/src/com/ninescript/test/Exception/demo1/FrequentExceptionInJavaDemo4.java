@@ -1,0 +1,24 @@
+package com.ninescript.test.Exception.demo1;
+
+public class FrequentExceptionInJavaDemo4 {
+	
+	public static void main(String[] args) {
+		
+		try{
+			
+			String str ="EasySteps2BulidWebSites";
+			System.out.println(str.length());
+			char c = str.charAt(0);
+			
+			c = str.charAt(40);
+			System.out.println(c);
+			
+		}
+		
+		catch(StringIndexOutOfBoundsException e ){
+			System.out.println("String IndexOut Of Bounds !! ");
+		}
+		
+	}
+
+}
